@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TRZXComplaint"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "TRZXComplaint 投诉组件"
 
   s.homepage     = "https://github.com/TRZXDev/TRZXComplaint.git"
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "Rhino" => "502244672@qq.com" }
 
-  s.platform     = :ios, "9.0"
+  s.platform     = :ios, "8.0"
 
   s.source       = { :git => "https://github.com/TRZXDev/TRZXComplaint.git", :tag => s.version.to_s }
 

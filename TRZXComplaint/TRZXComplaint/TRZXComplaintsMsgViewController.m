@@ -50,8 +50,21 @@ static NSInteger photoCount = 9;
 {
     self.isChooseOrigan = NO;
     self.title = @"投诉";
-//    [self setLeftBarItemWithImage:@"navigation_back"];
-//    [self setRightBarItemWithString:@"提交"];
+    self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    btn.frame= CGRectMake(0, 0, 80, 44);
+    [btn setTitle:@"提交"  forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor colorWithRed:209.0/255.0 green:187.0/255.0 blue:114.0/255.0 alpha:1] forState:UIControlStateNormal];
+    btn.titleLabel.font = [UIFont systemFontOfSize: 15.0];
+    [btn addTarget:self action:@selector(rightBarItemAction:
+                                         ) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *btn_right = [[UIBarButtonItem alloc] initWithCustomView:btn];
+    UIBarButtonItem *negativeSpacer = [[UIBarButtonItem alloc]
+                                       initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace
+                                       target:nil action:nil];
+    negativeSpacer.width = -20;
+    self.navigationItem.rightBarButtonItems = [NSArray arrayWithObjects:negativeSpacer, btn_right, nil];
+    
     UIView *headerView             = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 44)];
     UILabel *lable                 = [[UILabel alloc]initWithFrame:CGRectMake(10, 10, self.view.bounds.size.width-20, 24)];
     lable.text                     = @"请举证";
