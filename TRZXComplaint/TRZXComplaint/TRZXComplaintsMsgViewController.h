@@ -37,7 +37,7 @@ typedef NS_ENUM(NSUInteger, ComplaintsSubType) {
 /**
  *  投诉选择信息 图片 聊天记录
  */
-@interface ComplaintsMsgViewController : UIViewController
+@interface TRZXComplaintsMsgViewController : UIViewController
 
 @property (nonatomic,assign)NSInteger type;
 

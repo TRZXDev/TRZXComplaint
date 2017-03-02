@@ -18,13 +18,11 @@ typedef NS_ENUM(NSUInteger, ComplaintsType) {
 /**
  *  投诉
  */
-@interface ComplaintsViewController : UIViewController
+@interface TRZXComplaintsViewController : UIViewController
 
 
 @property (nonatomic,assign)ComplaintsType type;
-
 @property (nonatomic,copy)NSString *targetId;//被投诉人UserID
-
 @property (nonatomic,copy)NSString *userTitle;
 
 @end

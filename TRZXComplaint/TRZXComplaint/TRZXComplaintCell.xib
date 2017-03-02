@@ -16,7 +16,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="205"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="204.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="204"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m75-77-xBY">
@@ -36,7 +36,7 @@
                         <color key="textColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="延展.png" translatesAutoresizingMaskIntoConstraints="NO" id="u4N-ej-29O">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ComplaintSlide.png" translatesAutoresizingMaskIntoConstraints="NO" id="u4N-ej-29O">
                         <rect key="frame" x="297" y="17" width="5" height="10"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="5" id="CcT-I6-QYf"/>
@@ -114,6 +114,6 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="延展.png" width="5" height="9"/>
+        <image name="ComplaintSlide.png" width="11" height="18"/>
     </resources>
 </document>

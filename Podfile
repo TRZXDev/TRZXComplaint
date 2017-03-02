@@ -15,6 +15,7 @@ target 'TRZXComplaint' do
     pod 'TRZXKit'
     pod 'CTMediator'
     pod 'TZImagePickerController'
+    pod 'LCActionSheet'
 
   target 'TRZXComplaintTests' do
     inherit! :search_paths

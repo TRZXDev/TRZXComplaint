@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "ComplaintsViewController.h"
+#import "CTMediator+TRZXComplaint.h"
+
 @interface ViewController ()
 
 @end
@@ -18,9 +19,17 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
+//[@"type"] integerValue];
+//complaints.targetId = params[@"targetId"];
+//complaints.userTitle = params[@"userTitle"];
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    ComplaintsViewController *complaints = [[ComplaintsViewController alloc]init];
+    UIViewController *complaints = [[CTMediator sharedInstance]
+                                    TRZXComplaint_TRZXComplaintViewController:@{@"type":@"1",
+                                                                                @"targetId":@"",
+                                                                                @"userTitle":@"xx"
+                                                                                }];
+    
     [self.navigationController pushViewController:complaints animated:YES];
 }
 

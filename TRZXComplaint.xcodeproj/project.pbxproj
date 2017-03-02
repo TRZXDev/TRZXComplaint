@@ -16,12 +16,18 @@
 		76B588471E67BAC200791987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B588451E67BAC200791987 /* LaunchScreen.storyboard */; };
 		76B588521E67BAC200791987 /* TRZXComplaintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B588511E67BAC200791987 /* TRZXComplaintTests.m */; };
 		76B5885D1E67BAC200791987 /* TRZXComplaintUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B5885C1E67BAC200791987 /* TRZXComplaintUITests.m */; };
-		76B588751E67BF2F00791987 /* ComplaintsMsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B5886E1E67BF2F00791987 /* ComplaintsMsgViewController.m */; };
+		76B588751E67BF2F00791987 /* TRZXComplaintsMsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B5886E1E67BF2F00791987 /* TRZXComplaintsMsgViewController.m */; };
 		76B588761E67BF2F00791987 /* ComplaintsTitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B588701E67BF2F00791987 /* ComplaintsTitleTableViewCell.m */; };
 		76B588771E67BF2F00791987 /* ComplaintsTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B588711E67BF2F00791987 /* ComplaintsTitleTableViewCell.xib */; };
-		76B588781E67BF2F00791987 /* ComplaintsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B588731E67BF2F00791987 /* ComplaintsViewController.m */; };
+		76B588781E67BF2F00791987 /* TRZXComplaintsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B588731E67BF2F00791987 /* TRZXComplaintsViewController.m */; };
 		76B5887C1E67BFCF00791987 /* TRZXComplaintCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B5887A1E67BFCF00791987 /* TRZXComplaintCell.m */; };
 		76B5887D1E67BFCF00791987 /* TRZXComplaintCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B5887B1E67BFCF00791987 /* TRZXComplaintCell.xib */; };
+		76B5887F1E67C91A00791987 /* TRZXComplaints_Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B5887E1E67C91A00791987 /* TRZXComplaints_Selected.png */; };
+		76B588811E67D68400791987 /* TRZXAlbumcss.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B588801E67D68400791987 /* TRZXAlbumcss.png */; };
+		76B588831E67ED8D00791987 /* ComplaintSlide.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B588821E67ED8D00791987 /* ComplaintSlide.png */; };
+		76B588861E67EDF200791987 /* CTMediator+TRZXComplaint.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B588851E67EDF200791987 /* CTMediator+TRZXComplaint.m */; };
+		76B588891E67EE0B00791987 /* Target_TRZXComplaint.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B588881E67EE0B00791987 /* Target_TRZXComplaint.m */; };
+		76B5888C1E67EE2300791987 /* TRZXComplaintViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B5888B1E67EE2300791987 /* TRZXComplaintViewModel.m */; };
 		90D14215FD858C4592107BE1 /* libPods-TRZXComplaintUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B83FAD1CDCB5B9D60FE441 /* libPods-TRZXComplaintUITests.a */; };
 		E26DF94E46F5EC39C8BFCF47 /* libPods-TRZXComplaintTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08AFDA9FE35A23BE049C734F /* libPods-TRZXComplaintTests.a */; };
 /* End PBXBuildFile section */
@@ -67,16 +73,25 @@
 		76B588581E67BAC200791987 /* TRZXComplaintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZXComplaintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B5885C1E67BAC200791987 /* TRZXComplaintUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZXComplaintUITests.m; sourceTree = "<group>"; };
 		76B5885E1E67BAC200791987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76B5886D1E67BF2F00791987 /* ComplaintsMsgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplaintsMsgViewController.h; sourceTree = "<group>"; };
-		76B5886E1E67BF2F00791987 /* ComplaintsMsgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplaintsMsgViewController.m; sourceTree = "<group>"; };
+		76B5886D1E67BF2F00791987 /* TRZXComplaintsMsgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXComplaintsMsgViewController.h; sourceTree = "<group>"; };
+		76B5886E1E67BF2F00791987 /* TRZXComplaintsMsgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXComplaintsMsgViewController.m; sourceTree = "<group>"; };
 		76B5886F1E67BF2F00791987 /* ComplaintsTitleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplaintsTitleTableViewCell.h; sourceTree = "<group>"; };
 		76B588701E67BF2F00791987 /* ComplaintsTitleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplaintsTitleTableViewCell.m; sourceTree = "<group>"; };
 		76B588711E67BF2F00791987 /* ComplaintsTitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComplaintsTitleTableViewCell.xib; sourceTree = "<group>"; };
-		76B588721E67BF2F00791987 /* ComplaintsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplaintsViewController.h; sourceTree = "<group>"; };
-		76B588731E67BF2F00791987 /* ComplaintsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplaintsViewController.m; sourceTree = "<group>"; };
+		76B588721E67BF2F00791987 /* TRZXComplaintsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXComplaintsViewController.h; sourceTree = "<group>"; };
+		76B588731E67BF2F00791987 /* TRZXComplaintsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXComplaintsViewController.m; sourceTree = "<group>"; };
 		76B588791E67BFCF00791987 /* TRZXComplaintCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXComplaintCell.h; sourceTree = "<group>"; };
 		76B5887A1E67BFCF00791987 /* TRZXComplaintCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXComplaintCell.m; sourceTree = "<group>"; };
 		76B5887B1E67BFCF00791987 /* TRZXComplaintCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXComplaintCell.xib; sourceTree = "<group>"; };
+		76B5887E1E67C91A00791987 /* TRZXComplaints_Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TRZXComplaints_Selected.png; sourceTree = "<group>"; };
+		76B588801E67D68400791987 /* TRZXAlbumcss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TRZXAlbumcss.png; sourceTree = "<group>"; };
+		76B588821E67ED8D00791987 /* ComplaintSlide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ComplaintSlide.png; sourceTree = "<group>"; };
+		76B588841E67EDF200791987 /* CTMediator+TRZXComplaint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+TRZXComplaint.h"; sourceTree = "<group>"; };
+		76B588851E67EDF200791987 /* CTMediator+TRZXComplaint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+TRZXComplaint.m"; sourceTree = "<group>"; };
+		76B588871E67EE0B00791987 /* Target_TRZXComplaint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_TRZXComplaint.h; sourceTree = "<group>"; };
+		76B588881E67EE0B00791987 /* Target_TRZXComplaint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_TRZXComplaint.m; sourceTree = "<group>"; };
+		76B5888A1E67EE2300791987 /* TRZXComplaintViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXComplaintViewModel.h; sourceTree = "<group>"; };
+		76B5888B1E67EE2300791987 /* TRZXComplaintViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXComplaintViewModel.m; sourceTree = "<group>"; };
 		8E2A62F3897BFC4585A03F19 /* libPods-TRZXComplaint.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRZXComplaint.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF6478E8782B204BAF40DAE1 /* Pods-TRZXComplaintUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXComplaintUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXComplaintUITests/Pods-TRZXComplaintUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -177,16 +192,25 @@
 		76B5886A1E67BB5800791987 /* TRZXComplaint */ = {
 			isa = PBXGroup;
 			children = (
-				76B588721E67BF2F00791987 /* ComplaintsViewController.h */,
-				76B588731E67BF2F00791987 /* ComplaintsViewController.m */,
-				76B5886D1E67BF2F00791987 /* ComplaintsMsgViewController.h */,
-				76B5886E1E67BF2F00791987 /* ComplaintsMsgViewController.m */,
+				76B5887E1E67C91A00791987 /* TRZXComplaints_Selected.png */,
+				76B588801E67D68400791987 /* TRZXAlbumcss.png */,
+				76B588821E67ED8D00791987 /* ComplaintSlide.png */,
+				76B588721E67BF2F00791987 /* TRZXComplaintsViewController.h */,
+				76B588731E67BF2F00791987 /* TRZXComplaintsViewController.m */,
+				76B5886D1E67BF2F00791987 /* TRZXComplaintsMsgViewController.h */,
+				76B5886E1E67BF2F00791987 /* TRZXComplaintsMsgViewController.m */,
 				76B5886F1E67BF2F00791987 /* ComplaintsTitleTableViewCell.h */,
 				76B588701E67BF2F00791987 /* ComplaintsTitleTableViewCell.m */,
 				76B588711E67BF2F00791987 /* ComplaintsTitleTableViewCell.xib */,
 				76B588791E67BFCF00791987 /* TRZXComplaintCell.h */,
 				76B5887A1E67BFCF00791987 /* TRZXComplaintCell.m */,
 				76B5887B1E67BFCF00791987 /* TRZXComplaintCell.xib */,
+				76B5888A1E67EE2300791987 /* TRZXComplaintViewModel.h */,
+				76B5888B1E67EE2300791987 /* TRZXComplaintViewModel.m */,
+				76B588841E67EDF200791987 /* CTMediator+TRZXComplaint.h */,
+				76B588851E67EDF200791987 /* CTMediator+TRZXComplaint.m */,
+				76B588871E67EE0B00791987 /* Target_TRZXComplaint.h */,
+				76B588881E67EE0B00791987 /* Target_TRZXComplaint.m */,
 			);
 			path = TRZXComplaint;
 			sourceTree = "<group>";
@@ -290,7 +314,8 @@
 				TargetAttributes = {
 					76B588331E67BAC200791987 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = 487PQPPTGA;
+						ProvisioningStyle = Automatic;
 					};
 					76B5884C1E67BAC200791987 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -329,10 +354,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B5887F1E67C91A00791987 /* TRZXComplaints_Selected.png in Resources */,
+				76B588831E67ED8D00791987 /* ComplaintSlide.png in Resources */,
 				76B588771E67BF2F00791987 /* ComplaintsTitleTableViewCell.xib in Resources */,
 				76B588471E67BAC200791987 /* LaunchScreen.storyboard in Resources */,
 				76B588441E67BAC200791987 /* Assets.xcassets in Resources */,
 				76B5887D1E67BFCF00791987 /* TRZXComplaintCell.xib in Resources */,
+				76B588811E67D68400791987 /* TRZXAlbumcss.png in Resources */,
 				76B588421E67BAC200791987 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,10 +526,13 @@
 			files = (
 				76B5887C1E67BFCF00791987 /* TRZXComplaintCell.m in Sources */,
 				76B588761E67BF2F00791987 /* ComplaintsTitleTableViewCell.m in Sources */,
-				76B588751E67BF2F00791987 /* ComplaintsMsgViewController.m in Sources */,
+				76B588891E67EE0B00791987 /* Target_TRZXComplaint.m in Sources */,
+				76B588751E67BF2F00791987 /* TRZXComplaintsMsgViewController.m in Sources */,
+				76B588861E67EDF200791987 /* CTMediator+TRZXComplaint.m in Sources */,
 				76B5883F1E67BAC200791987 /* ViewController.m in Sources */,
 				76B5883C1E67BAC200791987 /* AppDelegate.m in Sources */,
-				76B588781E67BF2F00791987 /* ComplaintsViewController.m in Sources */,
+				76B588781E67BF2F00791987 /* TRZXComplaintsViewController.m in Sources */,
+				76B5888C1E67EE2300791987 /* TRZXComplaintViewModel.m in Sources */,
 				76B588391E67BAC200791987 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -652,8 +683,10 @@
 			baseConfigurationReference = 18BD88B3CFBAC845CF6DAD54 /* Pods-TRZXComplaint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 487PQPPTGA;
 				INFOPLIST_FILE = TRZXComplaint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.TRZXComplaint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -665,8 +698,10 @@
 			baseConfigurationReference = 6A8E453FF54E368838A1F4F7 /* Pods-TRZXComplaint.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 487PQPPTGA;
 				INFOPLIST_FILE = TRZXComplaint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.TRZXComplaint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
