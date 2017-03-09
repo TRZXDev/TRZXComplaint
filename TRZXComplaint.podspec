@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/TRZXDev/TRZXComplaint.git", :tag => s.version.to_s }
 
-  s.source_files = "TRZXComplaint/TRZXComplaint/*.{h,m,xib}"
-  s.resources    = "TRZXComplaint/TRZXComplaint/*.{png}"  
+  s.source_files = "TRZXComplaint/TRZXComplaint/*.{h,m}"
+  s.resources    = "TRZXComplaint/TRZXComplaint/**/*.{png,xib}"  
 
   s.dependency 'TRZXNetwork'  
   s.dependency 'TRZXKit'
