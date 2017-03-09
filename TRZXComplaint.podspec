@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TRZXComplaint"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "TRZXComplaint 投诉组件"
 
   s.homepage     = "https://github.com/TRZXDev/TRZXComplaint.git"
@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/TRZXDev/TRZXComplaint.git", :tag => s.version.to_s }
 
-  s.source_files = "TRZXComplaint/TRZXComplaint/*.{h,m}"
-  s.resources    = "TRZXComplaint/TRZXComplaint/*.{xib,png}"  
+  s.source_files = "TRZXComplaint/TRZXComplaint/*.{h,m,xib}"
+  s.resources    = "TRZXComplaint/TRZXComplaint/*.{png}"  
 
   s.dependency 'TRZXNetwork'  
   s.dependency 'TRZXKit'
