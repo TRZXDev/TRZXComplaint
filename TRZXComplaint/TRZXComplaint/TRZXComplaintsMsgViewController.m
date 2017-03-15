@@ -14,6 +14,7 @@
 #import "TZImageManager.h"
 #import "LCActionSheet.h"
 #import "TRZXComplaintViewModel.h"
+#import "UIImage+Com_Load.h"
 
 static NSInteger photoCount = 9;
 
@@ -160,7 +161,7 @@ static NSInteger photoCount = 9;
     im.layer.masksToBounds = YES;
     im.userInteractionEnabled  = YES;
     if (indexPath.row == self.selectedPhotos.count && self.selectedPhotos.count != photoCount) {
-        im.image = [UIImage imageNamed:@"TRZXAlbumcss"];
+        im.image = [UIImage loadImage:@"TRZXAlbumcss" class:[self class]];
     }else{
         im.image = self.selectedPhotos[indexPath.row];
     }

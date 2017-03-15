@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		30CECC20EBC688A6A1B23406 /* libPods-TRZXComplaint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2A62F3897BFC4585A03F19 /* libPods-TRZXComplaint.a */; };
+		761833381E78F59D006A7577 /* UIImage+Com_Load.m in Sources */ = {isa = PBXBuildFile; fileRef = 761833371E78F59D006A7577 /* UIImage+Com_Load.m */; };
 		76B588391E67BAC200791987 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B588381E67BAC200791987 /* main.m */; };
 		76B5883C1E67BAC200791987 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B5883B1E67BAC200791987 /* AppDelegate.m */; };
 		76B5883F1E67BAC200791987 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B5883E1E67BAC200791987 /* ViewController.m */; };
@@ -57,6 +58,8 @@
 		3388F5DFDBE1D70DA6D8ADA7 /* Pods-TRZXComplaintUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXComplaintUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXComplaintUITests/Pods-TRZXComplaintUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3CF883B03D85966DF471A9EC /* Pods-TRZXComplaintTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXComplaintTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXComplaintTests/Pods-TRZXComplaintTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6A8E453FF54E368838A1F4F7 /* Pods-TRZXComplaint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXComplaint.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXComplaint/Pods-TRZXComplaint.release.xcconfig"; sourceTree = "<group>"; };
+		761833361E78F59D006A7577 /* UIImage+Com_Load.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Com_Load.h"; sourceTree = "<group>"; };
+		761833371E78F59D006A7577 /* UIImage+Com_Load.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Com_Load.m"; sourceTree = "<group>"; };
 		76B588341E67BAC200791987 /* TRZXComplaint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZXComplaint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B588381E67BAC200791987 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		76B5883A1E67BAC200791987 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -207,6 +210,8 @@
 				76B5887B1E67BFCF00791987 /* TRZXComplaintCell.xib */,
 				76B5888A1E67EE2300791987 /* TRZXComplaintViewModel.h */,
 				76B5888B1E67EE2300791987 /* TRZXComplaintViewModel.m */,
+				761833361E78F59D006A7577 /* UIImage+Com_Load.h */,
+				761833371E78F59D006A7577 /* UIImage+Com_Load.m */,
 				76B588841E67EDF200791987 /* CTMediator+TRZXComplaint.h */,
 				76B588851E67EDF200791987 /* CTMediator+TRZXComplaint.m */,
 				76B588871E67EE0B00791987 /* Target_TRZXComplaint.h */,
@@ -529,6 +534,7 @@
 				76B588891E67EE0B00791987 /* Target_TRZXComplaint.m in Sources */,
 				76B588751E67BF2F00791987 /* TRZXComplaintsMsgViewController.m in Sources */,
 				76B588861E67EDF200791987 /* CTMediator+TRZXComplaint.m in Sources */,
+				761833381E78F59D006A7577 /* UIImage+Com_Load.m in Sources */,
 				76B5883F1E67BAC200791987 /* ViewController.m in Sources */,
 				76B5883C1E67BAC200791987 /* AppDelegate.m in Sources */,
 				76B588781E67BF2F00791987 /* TRZXComplaintsViewController.m in Sources */,
