@@ -2,7 +2,8 @@
 Pod::Spec.new do |s|
 
   s.name         = "TRZXComplaint"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
+  
   s.summary      = "TRZXComplaint 投诉组件"
 
   s.homepage     = "https://github.com/TRZXDev/TRZXComplaint.git"
