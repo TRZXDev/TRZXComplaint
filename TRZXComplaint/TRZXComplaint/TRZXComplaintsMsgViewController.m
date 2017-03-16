@@ -57,8 +57,7 @@ static NSInteger photoCount = 9;
     [btn setTitle:@"提交"  forState:UIControlStateNormal];
     [btn setTitleColor:[UIColor colorWithRed:209.0/255.0 green:187.0/255.0 blue:114.0/255.0 alpha:1] forState:UIControlStateNormal];
     btn.titleLabel.font = [UIFont systemFontOfSize: 15.0];
-    [btn addTarget:self action:@selector(rightBarItemAction:
-                                         ) forControlEvents:UIControlEventTouchUpInside];
+    [btn addTarget:self action:@selector(rightBarItemAction:) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *btn_right = [[UIBarButtonItem alloc] initWithCustomView:btn];
     UIBarButtonItem *negativeSpacer = [[UIBarButtonItem alloc]
                                        initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace
@@ -73,7 +72,6 @@ static NSInteger photoCount = 9;
     lable.textColor                = [UIColor colorWithRed:179.0/255.0 green:179.0/255.0 blue:179.0/255.0 alpha:1];
     [headerView addSubview:lable];
     self.tableView.tableHeaderView = headerView;
-    [self.tableView registerNib:[UINib nibWithNibName:@"ComplaintsTitleTableViewCell" bundle:nil] forCellReuseIdentifier:@"ComplaintsTitleTableViewCell"];
     self.dataSource = [NSMutableArray arrayWithArray:@[@"图片证据",@""]];
     [self.view addSubview:self.tableView];
     [self.tableView reloadData];
