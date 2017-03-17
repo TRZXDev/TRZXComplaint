@@ -15,10 +15,9 @@
 
 @property (nonatomic,strong)UITableView *tableView;
 @property (nonatomic,strong)NSArray *dataSource;
-
 @property (nonatomic,assign)NSUInteger index;
-
 @property (nonatomic, strong)UIImageView *tickImageView;
+
 
 @end
 
